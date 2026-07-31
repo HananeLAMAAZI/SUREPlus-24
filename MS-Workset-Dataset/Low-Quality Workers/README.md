@@ -1,7 +1,9 @@
 The Low Quality Workers Folder contains 3 files described as follows:
 
 All-Workers.csv: represents the raw dataset that contains legitimate and malicious workers
+
 Legitimate-Workers.csv: represents the list of legitimate workers with high-quality contributions
+
 Low-Quality-Workers.csv: represents the list of low-quality workers with limited contributions
 
 
