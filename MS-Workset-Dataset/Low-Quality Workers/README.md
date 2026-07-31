@@ -6,6 +6,6 @@
 | `Finished Subtasks` |   Numeric | The number of subtasks successfully completed by the worker.                                                                                                     |
 | `Quality`           |     Float | A numerical score representing the assessed quality of the worker’s contribution.|
 | `Rating`            |     Float | The rating assigned to the worker or contribution.                             |
-| `Latitude`          |     Float | The latitude associated with the worker’s contribution or the task location.                                                                                     |
-| `Longitude`         |     Float | The longitude associated with the worker’s contribution or the task location.                                                                                    |
+| `Latitude`          |     Float | The latitude associated with the worker’s contribution.                                                                                     |
+| `Longitude`         |     Float | The longitude associated with the worker’s contribution.                                                                                    |
 
