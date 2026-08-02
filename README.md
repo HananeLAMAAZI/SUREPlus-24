@@ -26,7 +26,7 @@ The Low-Quality Workers Folder contains 4 files described as follows:
 
 | Attribute           | Data Type | Description                                                                                                                                                      |
 | ------------------- | --------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `Account ID`        |   Integer | An anonymized identifier assigned to the crowdsensing worker or participant.                                                                                     |
+| `Account ID`        |   Integer | Represents the account identifier associated with the worker's platform account.                                                                                     |
 | `Task ID`           |   Integer | A unique identifier for the crowdsensing task assigned to the worker.                                                                                            |
 | `Subtasks`          |   Numeric | The total number of subtasks associated with the assigned task.                                                                                                  |
 | `Finished Subtasks` |   Numeric | The number of subtasks successfully completed by the worker.                                                                                                     |
@@ -49,7 +49,7 @@ The Low-Quality Workers Folder contains 4 files described as follows:
 | `Worker ID` | Integer | Represents the worker identifier. |
 | `Account ID` | Integer | Represents the account identifier associated with the worker's platform account. A worker can possess multiple accounts. |
 | `Task ID` | Integer | A unique identifier for the crowdsensing task in which the worker participated. |
-| `Variance` | Float | Variance of the reported data submitted by the worker account for the executed task |
+| `Variance` | Float | Variance of the reported data submitted by the worker account for the executed task. |
 | `Rating` | Float | A numerical score representing the worker's assessed reliability. |
 | `Latitude` | Float | The latitude associated with the worker's location. |
 | `Longitude` | Float | The longitude associated with the worker's location. |
