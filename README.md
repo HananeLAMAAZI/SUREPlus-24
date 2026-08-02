@@ -9,13 +9,13 @@ In this proposed dataset, three main representative misbehavior scenarios are mo
 + Location data manipulation (GPS Spoofing).
 ## Dataset Overview
 ### Faking_GPS Folder:
-+ All-rows.csv
-+ blacklist.csv
-+ deleted-rows.csv
-+ accepted-rows.csv
++ All-rows.csv: represents the raw dataset that contains coordinates of legitimate and malicious workers
++ accepted-rows.csv: represents the list of legitimate workers with correct coordinates
++ blacklist.csv: represents the blacklisted workers, by ID, with fake coordinates
++ deleted-rows.csv: represents the list of deleted workers with fake coordinates
 ### Low-Quality Workers Folder:
 
-The Low-Quality Workers Folder contains 3 files described as follows:
+The Low-Quality Workers Folder contains 4 files described as follows:
 
 + All-rows.csv: represents the raw dataset that contains legitimate and malicious workers
 + accepted-rows.csv: represents the list of legitimate workers with high-quality contributions
