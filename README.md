@@ -9,7 +9,7 @@ In this proposed dataset, three main representative misbehavior scenarios are mo
 + Location data manipulation (GPS Spoofing).
 ## Dataset Overview
 ### Faking_GPS Folder:
-+ All-rows.csv: represents the raw dataset that contains coordinates of legitimate and malicious workers
++ All-rows.csv: represents the raw dataset that contains coordinates of legitimate and malicious workers. It contains: account ID (a unique account associated with a unique worker), Task ID, and Worker coordinates (lat, lon).
 + accepted-rows.csv: represents the list of legitimate workers with correct coordinates
 + blacklist.csv: represents the blacklisted workers, by ID, with fake coordinates
 + deleted-rows.csv: represents the list of deleted workers with fake coordinates
@@ -37,9 +37,9 @@ The Low-Quality Workers Folder contains 4 files described as follows:
 
 
 ### Workers_With-Multi-accounts Folder:
-+ All-reports.csv: represents the raw dataset that contains workers IDs and their associated accounts. The dataset is labled where the malicious accounts are labeled as "True" and legitimate one as "False".
-+ blacklist.csv: represent the blacklisted accounts.
-+ All-reports-500-500.csv: Small sample of the raw dataset with 500 workers. Could be used for small simulation.
++ All-reports.csv: represents the raw dataset that contains workers IDs and their associated accounts. The dataset is labeled where the malicious accounts are labeled as "True" and the legitimate ones as "False".
++ blacklist.csv: represents the blacklisted accounts.
++ All-reports-500-500.csv: Small sample of the raw dataset with 500 workers. Could be used for a small simulation.
 + blacklist-500-500.csv: blacklisted accounts from the sample dataset
 
 #### Attribute Description
