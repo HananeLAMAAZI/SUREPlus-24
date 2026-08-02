@@ -37,10 +37,10 @@ The Low-Quality Workers Folder contains 4 files described as follows:
 
 
 ### Workers_With-Multi-accounts Folder:
-+ All-reports.csv
-+ blacklist.csv
-+ All-reports-500-500.csv
-+ blacklist-500-500.csv
++ All-reports.csv: represents the raw dataset that contains workers IDs and their associated accounts. The dataset is labled where the malicious accounts are labeled as "True" and legitimate one as "False".
++ blacklist.csv: represent the blacklisted accounts.
++ All-reports-500-500.csv: Small sample of the raw dataset with 500 workers. Could be used for small simulation.
++ blacklist-500-500.csv: blacklisted accounts from the sample dataset
 
 #### Attribute Description
 
