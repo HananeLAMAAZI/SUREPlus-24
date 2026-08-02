@@ -22,6 +22,7 @@ The Low-Quality Workers Folder contains 4 files described as follows:
 + blacklist.csv: represents the blacklisted workers, by ID, with limited contributions
 + deleted-rows.csv: represents the list of deleted workers with limited contributions
 
+#### Attribute Description
 
 | Attribute           | Data Type | Description                                                                                                                                                      |
 | ------------------- | --------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,3 +41,16 @@ The Low-Quality Workers Folder contains 4 files described as follows:
 + blacklist.csv
 + All-reports-500-500.csv
 + blacklist-500-500.csv
+
+#### Attribute Description
+
+| Attribute | Data Type | Description |
+|---|---|---|
+| `Worker ID` | Integer | Represents the worker identifier. |
+| `Account ID` | Integer | Represents the account identifier associated with the worker's platform account. A worker can possess multiple accounts. |
+| `Task ID` | Integer | A unique identifier for the crowdsensing task in which the worker participated. |
+| `Variance` | Float | A numerical measure of the variability in the worker's behavior, responses, or sensed observations. A larger value indicates greater variation, although its precise meaning depends on how variance was calculated during dataset preparation. |
+| `Rating` | Float | A numerical score representing the worker's assessed reliability. |
+| `Latitude` | Float | The latitude associated with the worker's location. |
+| `Longitude` | Float | The longitude associated with the worker's location. |
+| `Malicious` | Boolean | The target label indicating whether the account was classified as malicious. `True` denotes a malicious account, while `False` denotes a non-malicious account. |
